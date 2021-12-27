@@ -1,0 +1,94 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+h1 {
+
+    color: #E05500;
+    margin-bottom: 5px;
+    text-align: left;
+    padding-left: 200px;
+    font-size: 16px;
+    font-weight: 700px;
+
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #000000;
+}
+
+.inputs {
+    display: block;
+    margin: 7px;
+    border: 2px solid #E05500;
+    border-radius: 7px;
+}
+
+#date {
+    display: block;
+    margin: 7px;
+    border: 2px solid #E05500;
+    border-radius: 7px;
+}
+
+.inputs2 {
+    display: inline-block;
+    margin: 10px;
+}
+
+textarea {
+    display: block;
+    margin: 10px;
+    border: 2px solid #E05500;
+    border-radius: 7px;
+}
+
+#input-image {
+    display: block;
+    margin: 7px;
+    border: none;
+
+}
+
+
+.genero {
+    border: 2px solid #E05500;
+    border-radius: 7px;
+}
+
+#olhos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: border 2px solid #E05500;
+    border-radius: 7px;
+}
+
+form {
+    border: 2px solid #000000;
+    background-color: #19FBFF;
+}
+
+.botao {
+    background-color: #E05500;
+    border: 2px solid #000000;
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 7px;
+    font-size: 13px;
+    color: #000000;
+    cursor: pointer;
+
+}
+
+.botao:hover {
+    background-color: #943800;
+    font-size: 14px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Challenge.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https: //fonts.googleapis.com/css2? família = Nunito: ital, peso @ 0,600; 0,700; 1,200 & display = swap "
+        rel=" stylesheet ">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <form action="" method="post" enctype="multipart/form-data">
+        <h1>CADASTRO</h1>
+        <label>
+            Nome
+            <input type="text" name="nome" class="inputs" required>
+        </label>
+        <label>
+            Email
+            <input type="email" name="email" class="inputs" required>
+        </label>
+        <label>
+            Idade
+            <input type="number" min="12" name="idade" class="inputs" required>
+        </label>
+        <label>
+            Data de Nascimento
+            <input type="date" name="data-nascimento" id="date" required>
+
+            <label>Onde você possui conta? </label>
+            <label>
+                <input type="checkbox" name="instagram" class="inputs2">
+                Instagram
+                <input type="checkbox" name="facebook" class="inputs2">
+                Facebook
+                <input type="checkbox" name="youtube" class="inputs2">
+                YouTube
+            </label>
+
+            <label> Sexo
+                <label>
+                    <input type="radio" name="Sexo" value="Masculino" class="genero"> Masculino
+                    <input type="radio" name="Sexo" value="Feminino" class="genero"> Feminino
+                </label>
+
+            </label>
+            <label>
+                Cor dos olhos
+                <input type="color" nome="cor-olhos" id="olhos" value="#E05500">
+            </label>
+            <label>
+                Biografia
+                <textarea> </textarea>
+            </label>
+            <label>
+                Foto do perfil
+                <input type="file" accept="image/*" name="foto-perfil" id="input-image" required>
+                <label>
+                    Telefone
+                    <input type="" name="tel" class="inputs" required>
+                </label>
+                <label>
+                    Link do perfil do Facebook
+                    <input type="url" name="link-perfil" class="inputs" required>
+                </label>
+                <label>
+                    Senha
+                    <input type="password" minlength="6" maxlength="8" name="senha" class="inputs" required>
+                </label>
+                <button type="reset" class="botao">Limpar</button>
+                <button type="submit" class="botao">Enviar Dados</button>
+    </form>
+
+
+
+
+</body>
+
+</html>
